@@ -1,0 +1,33 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.qrwrapper {
+  /*width: 15%;*/
+  width: 15vw;
+  padding: 15px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+}
+.qrwrapper img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+.qrwrapper h3 {
+  font-weight: 700;
+}
+.qrwrapper p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+.qrwrapper * {
+  margin: auto;
+}
+
+/*mediaquery*/
+@media screen and (max-width: 400px) {
+  .qrwrapper {
+    width: 80%;
+  }
+}
