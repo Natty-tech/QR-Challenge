@@ -26,9 +26,4 @@ body {
   margin: auto;
 }
 
-/*mediaquery*/
-@media screen and (max-width: 400px) {
-  .qrwrapper {
-    width: 80%;
-  }
-}
+
